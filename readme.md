@@ -1,4 +1,4 @@
-#Django Trading Signal Service
+# Django Trading Signal Service
 
 ## Installation and Setup 
 python -m venv venv
@@ -8,7 +8,8 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 ## Database setup
-```env
+```
+env
 Database_url=sqlite:///db.sqlite3
 ```
 ## Apply database migration
@@ -19,15 +20,18 @@ python manage.py createsuperuser
 ## Run the server
 python manage.py runserver
 
+---
 ## Api Documentation
 First login with your credential and then access the api
 in the api you can find the following endpoints:
 ```  http://127.0.0.1:8000/api-auth/login/ 
 ```
-
+---
 ## Signal 
 endpoints would be -
-``` http://127.0.0.1:8000/api/v1/signal/ 
+``` 
+http://127.0.0.1:8000/api/v1/signal/ 
+
 ```
 input data for it would be -
 ```
@@ -39,7 +43,9 @@ TP 1.0890
 ## Order
 endpoints would be -
 ```
+
 http://127.0.0.1:8000/api/v1/order/
+
 ```
 input data for it would be to create order-
 "signal" : "uuid of trading signal",
@@ -48,7 +54,9 @@ input data for it would be to create order-
 ---
 ## Broker 
 endpoints would be-
-``` http://127.0.0.1:8000/api/v1/broker/
+``` 
+http://127.0.0.1:8000/api/v1/broker/
+
 ```
 input data for it would be to create broker-
 "broker_name" : "broker_name",
