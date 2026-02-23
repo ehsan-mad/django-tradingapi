@@ -24,7 +24,9 @@ python manage.py runserver
 ## Api Documentation
 First login with your credential and then access the api
 in the api you can find the following endpoints:
-```  http://127.0.0.1:8000/api-auth/login/ 
+```  
+http://127.0.0.1:8000/api-auth/login/ 
+
 ```
 ---
 ## Signal 
