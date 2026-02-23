@@ -1,0 +1,52 @@
+# IDE & Tools
+.github/
+.qodo/
+.zencoder/
+.zenflow/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+local_settings.py
+
+media/
+staticfiles/
+
+# Environment
+.env
+.env.*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Migrations (optional - uncomment if needed)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# OS
+.DS_Store
+Thumbs.db
